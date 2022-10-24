@@ -1,0 +1,92 @@
+/* -------------------  MOBILE  --------------------- */
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  min-height: 100vh;
+  background-image: url("background.jpg");
+  background-size: cover;
+  
+}
+
+header {
+  /* header styles */
+  color: aliceblue;
+  
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+  /* footer styles */
+  background-color: aliceblue;
+}
+
+/* -------------------  MOBILE  --------------------- */
+@media (min-width: 480px) {
+  /* use mobile */
+  .gallery {
+    display: inline-block;
+    column-count: 1;
+  }
+}
+
+/* -------------------  TABLET  -------------------- */
+
+@media (min-width: 768px) {
+  /* use mobile */
+  .gallery {
+    display: inline-block;
+    column-count: 2;
+  }
+}
+
+/* -------------------  DESKTOP  -------------- */
+
+@media (min-width: 992px) {
+  /* use mobile */
+  .gallery {
+    display: inline-block;
+    column-count: 3;
+  }
+}
+
+h1, h2, h3, h4, h5, h6{
+  display: inline-block;
+  text-align: center;
+  color: aliceblue;
+  width: 100%;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  color: aliceblue;
+  width: 100%;
+}
+
+p {
+  color: aliceblue;
+}
+
+.tab button {
+  background-color: inherit;
+  color: aliceblue;
+  align-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
